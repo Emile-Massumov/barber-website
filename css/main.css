@@ -21,22 +21,10 @@ header {
   justify-content: center;
   text-align: center;
   flex-flow: row wrap;
-  
   margin: 20px;
-    }
-  .hero-pic {
-    background-image:url("../img/origin-pic.jpg"); 
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    color: seashell;
-    width: 100%;
   }
-  
-  .content-wrapper {
  
+  .content-wrapper {
     justify-content: center;
     text-align: center;
   }
@@ -64,7 +52,7 @@ header {
     text-align: center;
   }
   h3 {
-  
+    color: #fff;
     text-align: center;
   }
   h2 {
@@ -75,14 +63,57 @@ header {
     width: 100%;
     font-weight: 500;
     text-align: center;
+    color: #fff;
   }
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  /*main info*****/
 
+  #gallery {
+    background: gray;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    width: 100%;
+  }
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: flex-start;
+  }
+  .single-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+/**footer ***/
   footer {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     text-align: center;
+    background:#1b1b27;
   }
+  #contact ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2em;
+    list-style-type: none;
+    }
+    #contact img {
+      height: 50px;
+    }
+    #contact a {
+      text-decoration: none;
+      color: #fff;
+    }
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
