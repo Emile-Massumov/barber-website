@@ -27,7 +27,7 @@ header {
   text-align: center;
   flex-flow: row wrap;
   background:#000000;
-  
+  padding: 15px;
   
   }
  
@@ -44,6 +44,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
   }
 
   ul {
@@ -57,7 +58,10 @@ header {
     a {
       color: #fff;
       text-decoration:none;
+      color: #000;
+      font-family: 'Righteous', cursive;
     }
+
 
  
   h1 {
@@ -70,6 +74,7 @@ header {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    color:royalblue;
   }
   h2 {
   
@@ -83,6 +88,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     font-style: normal;
+    font-family: 'Righteous', cursive;
   }
   img {
     width: 100%;
@@ -157,6 +163,10 @@ header {
     #contact a {
       text-decoration: none;
       color: #fff;
+    }
+    .copyright p {
+      font-family: 'Anonymous Pro', monospace;
+
     }
 /*
  * Remove text-shadow in selection highlight:
