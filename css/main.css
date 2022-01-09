@@ -40,6 +40,11 @@ header {
   display: flex;
   justify-content: space-around;
   }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   ul {
     padding-left: 0px;
