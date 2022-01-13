@@ -23,7 +23,7 @@
 }
 header {
   display: flex;
-  justify-content:right;
+  justify-content:center;
   text-align: center;
   flex-flow: row wrap;
   background:#fff;
@@ -42,14 +42,16 @@ header {
   background: #000;
   padding-top: 8px;
   padding-bottom: 8px;
-
-  }
+   }
+ 
   nav {
+    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
   }
+
 
   ul {
     padding-left: 0px;
@@ -75,8 +77,9 @@ header {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    color:royalblue;
+    color: #000;
   }
+  
   h2 {
   
     text-align: center;
@@ -92,11 +95,21 @@ header {
     font-family: 'Righteous', cursive;
   }
   img {
-    width: 100%;
-    border-radius: 10px;
+   max-width: 100%;
+   border-radius: 10px;
   }
   .origin-pic {
     border-radius:inherit;
+  }
+  /*video*****/
+  .video {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+
   }
   /*main info*****/
 
@@ -119,6 +132,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-flow: wrap;
+    background: #222;
   }
   section .product .item-box {
     position:relative;
