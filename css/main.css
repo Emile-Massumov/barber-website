@@ -183,6 +183,10 @@ header {
   .intro {
     height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .slideshow-img {
     position: absolute;
@@ -191,7 +195,10 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: none;
+    z-index: -1;
+    /*display: none;*/
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
   }
 /**footer ***/
   footer {
