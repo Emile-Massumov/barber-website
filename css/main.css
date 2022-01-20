@@ -95,13 +95,15 @@ header {
     font-family: 'Prata', serif;
   }
   .text p {
-    padding: 12px;
+    padding: 20px;
     text-align: left;
     line-height: 2;
   }
   .text h3 {
     text-align: left;
-    padding: 15px;
+    padding: 20px;
+    font-size: 26px;
+    font-family: 'Prata', serif;
   }
   img {
    max-width: 100%;
@@ -164,8 +166,13 @@ header {
     /*display: none;*/
     opacity: 0;
     transition: opacity 1s ease-in-out;
-    
     }
+  
+  .text h2 {
+    font-size: 26px;
+    line-height: 32px;
+    font-family: 'Prata', serif;
+  }
   
 /**footer ***/
   footer {
