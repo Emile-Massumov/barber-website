@@ -169,10 +169,18 @@ header {
     }
   
   .text h2 {
+    padding: 16px;
     font-size: 26px;
     line-height: 32px;
     font-family: 'Prata', serif;
   }
+/**price list image**/
+.price-list {
+  padding: 16px;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
   
 /**footer ***/
   footer {
