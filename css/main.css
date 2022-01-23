@@ -175,48 +175,34 @@ header {
     font-family: 'Prata', serif;
   }
 /**product image**/
-.image {
-  position: relative;
-  width: 400px;
-}
-.image__img {
-  display: block;
-  width: 100%;
 
-}
-.image__overlay {
-  position: absolute;
-  top: 0;
-  left:0;
+.hovereffects {
   width: 100%;
   height: 100%;
-  background:rgba(0, 0, 0, 0.6);
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  margin-bottom: 10px;
+}
+.hovereffects .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left:0;
   opacity: 0;
+  background-color:rgba(0, 0,0, 0.5);
+  -webkit-transition:all 0.4s ease-in-out ;
+  transition: all 0.4s ease-in-out ;
 }
-.image__overlay:hover {
-  opacity: 1;
-  }
-.image__title {
-  font-size: 2em;
-  font-weight: bold;
-  font-family: 'Prata', serif;
-
+.hovereffects img {
+  display: block;
+  position: relative;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
 }
-.image__description {
-  font-size: 0.75em;
-  margin-top: 0.25em;
-  color: #fff;
-  font-family: 'Prata', serif;
-  
-
-}
-
-
 
 
   
