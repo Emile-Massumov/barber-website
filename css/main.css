@@ -21,49 +21,24 @@
   font-size: 1em;
   line-height: 1.4;
 }
+/*Header button*/
 header {
-  display: flex;
-  justify-content:center;
+ text-align: center;
+  }
+ .btn-hire {
+  background-color:#1e56a0;
+  color: #fff;
   text-align: center;
-  flex-flow: row wrap;
-  background:#fff;
-  padding: 15px;
-  
-  }
- 
-  .content-wrapper {
-    justify-content: center;
-    text-align: center;
-  }
-  
-  header nav ul {
-  display: flex;
-  justify-content: space-around;
-  background: #000;
-  padding-top: 8px;
-  padding-bottom: 8px;
-   }
- 
-  nav {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 15px 32px;
   }
 
-
-  ul {
-    padding-left: 0px;
-    width: 200px;
-    list-style-type: none;
-    font-size: 1em;
-    text-transform: uppercase;
-    }
-    a {
-      text-decoration:none;
-      color:#fff;
-    }
 
 
  
