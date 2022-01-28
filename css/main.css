@@ -25,6 +25,7 @@
 header {
  text-align: right;
  padding-right: 20px;
+ padding-bottom: 40px;
   }
  .btn-hire {
   background-color:#1e56a0;
@@ -32,7 +33,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   cursor: pointer;
@@ -54,6 +55,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #000;
+    font-size: 16px;
   }
   
   h2 {
@@ -69,17 +71,23 @@ header {
     padding-bottom: 10px;
     font-style: normal;
     font-family: 'Prata', serif;
+    font-size: 12px;
+    letter-spacing: 1px;
   }
   .text p {
     padding: 20px;
     text-align: left;
-    line-height: 2;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
   }
   .text h3 {
     text-align: left;
     padding: 20px;
-    font-size: 26px;
+    font-size: 16px;
     font-family: 'Prata', serif;
+    letter-spacing: 1.8px;
   }
   img {
    max-width: 100%;
