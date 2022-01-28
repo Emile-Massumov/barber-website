@@ -91,7 +91,7 @@ header {
   }
   img {
    max-width: 100%;
-  
+   padding: 14px;
   }
   .origin-pic {
     border-radius:inherit;
