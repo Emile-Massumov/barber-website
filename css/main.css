@@ -23,7 +23,8 @@
 }
 /*Header button*/
 header {
- text-align: center;
+ text-align: right;
+ padding-right: 20px;
   }
  .btn-hire {
   background-color:#1e56a0;
@@ -36,7 +37,7 @@ header {
   letter-spacing: 0.3em;
   cursor: pointer;
   border-radius: 3px;
-  padding: 15px 32px;
+  padding: 8px;
   }
 
 
