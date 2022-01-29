@@ -86,8 +86,6 @@ h1 {
   header {
     text-align: center;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px 1fr);
   }
   nav {
     width: 100%;
@@ -98,8 +96,9 @@ h1 {
     justify-content:space-between;
     align-items: center;
   }
-  .logo {
-    grid-column: 2 / 2;
+  nav img {
+  width: 50%;
+
   }
   nav ul {
     display: flex;
