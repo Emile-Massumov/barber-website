@@ -98,11 +98,27 @@ h1 {
   }
   nav img {
   width: 50%;
-
+  }
+  .logo {
+    padding-left: 0px;
   }
   nav ul {
     display: flex;
     justify-content: space-between;
+  }
+  nav li {
+    list-style-type: none;
+
+
+  }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #fff;
+    background-color: black;
+    padding: 10px;
+    font-size: 12px;
   }
 
   /*video*****/
@@ -123,7 +139,7 @@ h1 {
     padding:15x;
 
     background: #222;
-    ;
+    
 
 
   }
