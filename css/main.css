@@ -27,24 +27,7 @@ header {
  padding-right: 20px;
  padding-bottom: 40px;
   }
- .btn-hire {
-  background-color:#1e56a0;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  cursor: pointer;
-  border-radius: 3px;
-  padding: 8px;
-  }
-
-
-
- 
-  h1 {
+h1 {
     width: 100%;
     font-weight: 600;
     text-align: center;
@@ -97,20 +80,32 @@ header {
   .origin-pic {
     border-radius:inherit;
   }
-  .fixed-nav-container {
+ 
+
+  /*nav-bar*/
+  header {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px 1fr);
+  }
+  nav {
+    width: 100%;
+    text-align: left;
+    top:100%;
+    left: 0;
     display: flex;
-    max-width: 940px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
   }
-  /*nav-bar*/
-  @media (max-width: 479px) {
-    .fixed-nav-container {
-      padding-right: 20px;
-    }
+  .logo {
+    grid-column: 2 / 2;
   }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
   /*video*****/
  .wrapper {
    display: flex;
