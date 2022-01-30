@@ -97,11 +97,10 @@ h1 {
     align-items: center;
   }
   nav img {
-  width: 50%;
+  width: 100%;
   }
-  .logo {
-    padding-left: 0px;
-  }
+
+
   nav ul {
     display: flex;
     justify-content: space-between;
