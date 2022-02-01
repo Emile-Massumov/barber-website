@@ -99,7 +99,10 @@ h1 {
   nav img {
   width: 100%;
   }
-
+ .logo {
+   width: 100px;
+   float: left;
+ }
 
   nav ul {
     display: flex;
@@ -240,6 +243,32 @@ h1 {
     .copyright p {
       font-family: 'Anonymous Pro', monospace;
 
+    }
+    
+    @media only screen and (min-width: 1200px) {
+
+      .video {
+        width: 50%;
+      }
+      .text {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+      }
+      .content-wrapper {
+        
+      }
+      .intro {
+        width: 50%;
+        height: 50vh;
+      }
+      .intro-slideshow {
+        width: 50%;
+        height: 50vh;
+      }
+      .intro-slideshow img {
+        height: 50vh;
+        }
     }
 /*
  * Remove text-shadow in selection highlight:
