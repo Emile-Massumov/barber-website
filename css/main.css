@@ -227,8 +227,8 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: none;
-
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
     
  @media screen and (min-width: 768px) { 
