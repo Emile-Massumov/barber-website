@@ -82,6 +82,12 @@
         </div>
       </div>
     </section>
+    <section class="intro">
+      <img src="./img/barber1.jpg" alt="barber" class="slideshow-img">
+      <img src="./img/barber2.jpg" alt="barber image" class="slideshow-img">
+      <img src="./img/barber3.jpg" alt="barber photo" class="slideshow-img">
+      <img src="./img/barber4.jpg" alt="barber picture" class="slideshow-img">
+      </section>
 </main>
  <!--footer-->
   <section id="contact">
@@ -117,12 +123,21 @@
   </div>
 </footer>
  
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+const slideshowImages = document.querySelectorAll(".intro .slideshow-img");
+const nextImageDelay = 3000;
+let currentImageCounter = 0;
+
+slideshowImages[currentImageCounter].style.display = "block";
+
+setInterval (nextImage , nextImageDelay);
+
+function nextImage () {
+    slideshowImages[currentImageCounter].style.display = "none";
+    currentImageCounter = (currentImageCounter + 1) % slideshowImages.length;
+    slideshowImages[currentImageCounter].style.display = "block";
+}
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
