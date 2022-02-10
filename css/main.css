@@ -216,8 +216,12 @@ footer {
 
 /**Slideshow images**/
 .intro {
-  height: 100vh;
+  height: 50vh;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
 }
 
 .slideshow-img {
@@ -229,7 +233,10 @@ footer {
   object-fit: cover;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+ 
 }
+
+
     
  @media screen and (min-width: 768px) { 
     #about #about-2 #headshot-img {
@@ -322,6 +329,12 @@ footer {
   margin-top: 50px;
 }
 
+/**Slideshow images**/
+.intro {
+  height: 50vh;
+  width: 476px;
+  margin-left: 100px;
+}
 
 
 
