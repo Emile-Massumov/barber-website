@@ -286,6 +286,7 @@ footer {
       margin: 50px;
   }
  
+ 
     .about-details {
       width: 100%;
       display: flex;
@@ -307,6 +308,7 @@ footer {
   align-items: flex-start;
   margin: 0;
 }
+
 #about p {
   margin: 0 0 10px 30px;
   max-width: 1100px;
@@ -319,6 +321,7 @@ footer {
   font-size: 1.25em;
   line-height: 1.5em;
 }
+
 .about-image {
   width:100%;
 }
@@ -337,6 +340,16 @@ footer {
   height: 50vh;
   width: 476px;
   margin-left: 100px;
+}
+
+.about-writeup p {
+  margin: 0 0 10px 30px;
+  max-width: 1100px;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+.about-writeup {
+  margin-top: 50px;
 }
 
 
