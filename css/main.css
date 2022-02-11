@@ -37,6 +37,8 @@ header {
     font-size: 12px;
     font-weight: 100;
     letter-spacing: 1px;
+    font-family: 'Prata', serif;
+
   }
   .text h3 {
     text-align: left;
@@ -44,6 +46,7 @@ header {
     font-size: 16px;
     font-family: 'Prata', serif;
     letter-spacing: 1.8px;
+
   }
 
   .origin-pic {
@@ -93,9 +96,22 @@ header {
     background-color: black;
     padding: 10px;
     font-size: 12px;
+    font-family: 'Prata', serif;
+
   }
 
   /*info*****/
+  h3 {
+    text-align: center;
+    font-family: 'Prata', serif;
+
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Prata', serif;
+
+  }
   #about {
     color: #2b2b2b;
     display: flex;
@@ -110,6 +126,20 @@ header {
 .full-width {
   overflow: auto;
   width: auto;
+}
+/**Slideshow**/
+.full-width-slide {
+  background-color: #000;
+}
+.about-writeup-slide h1 {
+  color: #fff;
+  font-family: 'Prata', serif;
+
+}
+.about-writeup-slide p {
+  color: #fff;
+  font-family: 'Prata', serif;
+
 }
 #about .content-wrapper {
   display: flex;
@@ -144,6 +174,9 @@ header {
 }
 p {
   padding: 10px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  letter-spacing: 1px;
 }
  
  /**footer ***/
@@ -158,10 +191,16 @@ p {
   text-align: center;
   display: block;
   padding-top: 40px;
+  font-family: 'Prata', serif;
+
 }
 h4 {
-  font-size: 1.125em;
+  font-size:0.65em;
   text-align: center;
+  font-family: 'Prata', serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+
 }
 .third-width {
   width: 380px;
@@ -177,6 +216,8 @@ h4 {
   margin: 40px auto;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Prata', serif;
+
 }
 #contact p {
   font-size: 12px;
@@ -184,6 +225,8 @@ h4 {
   line-height: 16px;
   padding: 5px 50px;
   margin: 18px;
+  font-family: 'Prata', serif;
+
 }
 #contact ul {
   display: flex;
@@ -200,6 +243,8 @@ h4 {
   text-decoration: none;
   color:#000;
   font-style: normal;
+  font-family: 'Prata', serif;
+
 }
 #contact img {
   height: 40px;
@@ -225,11 +270,12 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 16px;
+  bottom: 16px
 }
 
 .slideshow-img {
   position:absolute;
-  top: 0;
+  top: 16px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -321,12 +367,15 @@ footer {
   max-width: 1100px;
   font-size: 1.25em;
   line-height: 1.5em;
+  text-align: left;
+  font-family: 'Prata', serif;
 }
 #about-2 p {
   margin: 0 0 10px 30px;
   max-width: 1100px;
   font-size: 1.25em;
   line-height: 1.5em;
+  font-family: 'Prata', serif;
 }
 
 .about-image {
@@ -349,13 +398,22 @@ footer {
   margin-left: 100px;
 }
 
-.about-writeup p {
+.about-writeup-slide p {
   max-width: 1100px;
   font-size: 1.25em;
   line-height: 1.5;
+  color: #fff;
 }
-.about-writeup {
+.about-writeup-slide h1 {
+  color: #fff;
+  text-align: left;
+}
+.about-writeup-slide {
   margin-top: 50px;
+}
+
+.full-width-slide {
+  background-color: #000;
 }
 
 
