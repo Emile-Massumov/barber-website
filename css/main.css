@@ -100,6 +100,26 @@ header {
 
   }
 
+  /**video**/
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+
+  .video {
+    width: 100%;
+  }
+  .c-video {
+    width: 100%;
+  }
+  .about-writeup-video p {
+    color: #fff;
+  }
+
+
   /*info*****/
   h3 {
     text-align: center;
@@ -391,6 +411,26 @@ footer {
 #about .about-writeup {
   margin-top: 50px;
 }
+
+/**Video**/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.c-video {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.video {
+  padding-left: 50px;
+}
+
+
+
 
 /**Slideshow images**/
 .intro {
