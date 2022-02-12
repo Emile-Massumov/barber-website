@@ -117,6 +117,7 @@ header {
   }
   .about-writeup-video p {
     color: #fff;
+    text-align: justify;
   }
 
 
@@ -160,6 +161,7 @@ header {
 .about-writeup-slide p {
   color: #fff;
   font-family: 'Prata', serif;
+  text-align: justify;
 
 }
 #about .content-wrapper {
@@ -198,6 +200,7 @@ p {
   line-height: 1.5;
   word-spacing: 2px;
   letter-spacing: 1px;
+  text-align: justify;
 }
  
  /**footer ***/
