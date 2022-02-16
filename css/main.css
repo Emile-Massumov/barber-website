@@ -178,7 +178,6 @@ header {
 }
 #about #headshot-img {
   align-items: center;
-  border: 2px solid rgb(119, 119, 119);
   margin-bottom: 5px;
   max-width: 500px;
   width: 100%;
