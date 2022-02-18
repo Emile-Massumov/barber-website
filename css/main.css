@@ -192,6 +192,7 @@ p {
   letter-spacing: 1px;
   text-align: justify;
 }
+
  
  /**footer ***/
  .full-width {
@@ -403,6 +404,10 @@ footer {
 }
 #about .about-writeup {
   margin-top: 50px;
+}
+/**Price list section**/
+.about-image {
+  display: flex;
 }
 
 /**Nav-bar-image**/
