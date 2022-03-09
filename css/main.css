@@ -22,6 +22,10 @@
     font-size: 1em;
     line-height: 1.4;
   }
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
   /*Header button*/
     .text p {
       padding: 20px;
@@ -189,7 +193,6 @@
   p {
     padding: 10px;
     line-height: 1.5;
-    word-spacing: 2px;
     letter-spacing: 1px;
     text-align: justify;
   }
