@@ -114,6 +114,7 @@
     .about-writeup-video p {
       color: #fff;
       text-align: justify;
+      font-size: 1.25em;
     }
   
   
@@ -425,7 +426,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+
   }
   .c-video {
     display: flex;
