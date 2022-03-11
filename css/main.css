@@ -75,6 +75,7 @@
   .btn-hire {
   background-color:#fff;  
   }
+ 
   ul {
     padding-right: 20px;
   }
@@ -95,6 +96,20 @@
       font-family: 'Prata', serif;
   
     }
+     /**second button reserver**/
+     .container-button {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     button {
+       text-transform: uppercase;
+       font-size: 12px;
+       font-family: 'Prata', serif;
+       letter-spacing: 0.5em;
+       padding: 10px 16px;
+       cursor: pointer;
+     }
   
     /**video**/
     .container {
@@ -434,7 +449,7 @@
   
   }
   .video {
-    padding-left: 50px;
+    padding: 50px 0 50px 50px;
   }
   
   
