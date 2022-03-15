@@ -25,6 +25,7 @@
   h2 {
     color: #fff;
     text-align: center;
+    font-family: 'Prata', serif;
   }
   /*Header button*/
     .text p {
@@ -105,10 +106,11 @@
      }
      button {
        text-transform: uppercase;
-       font-size: 12px;
+       font-size: 20px;
        font-family: 'Prata', serif;
        letter-spacing: 0.5em;
-       padding: 10px 16px;
+       padding: 20px 20px;
+       border-radius: 10px;
        cursor: pointer;
      }
   
@@ -366,6 +368,9 @@
       .about-2 .content-wrapper {
         margin: 50px;
     }
+    .about-writeup-video {
+      margin-top: 60px;
+    }
    
    
       .about-details {
@@ -396,17 +401,28 @@
     font-size: 1.25em;
     line-height: 1.5em;
   }
+  .upper-address  {
+    color: #fff;
+    font-family:'Prata', serif; 
+    font-size: 12px;
+    padding-top: 60px;
+    text-align: center;
+  }
+  ul {
+    padding-top: 36px;
+  }
+
   
   .about h3 {
-    margin: 0 0 10px 40px;
+    margin: 50px 0 10px 40px;
     max-width: 1100px;
     font-size: 1.25em;
     line-height: 1.5em;
-    text-align: left;
+    text-align: center;
     font-family: 'Prata', serif;
   }
   .about-2 p {
-    margin: 0 0 10px 30px;
+    margin: 100px 0 10px 30px;
     max-width: 1100px;
     font-size: 1.25em;
     line-height: 1.5em;
@@ -439,7 +455,7 @@
   /**Nav-bar-image**/
   .logo {
     width: 33%;
-    padding-top: 30px;
+    padding-top: 60px;
   }
   
   /**Video**/
