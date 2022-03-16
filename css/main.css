@@ -84,6 +84,8 @@
     padding: 10px;
     font-size: 8px;
     font-family: 'Prata', serif;
+    border-radius: 5px;
+
 
   }
 
@@ -367,6 +369,10 @@
     }
       
       @media only screen and (min-width: 1200px) {
+      
+      nav a {
+        font-size: 12px;
+      }
        
        .about .content-wrapper {
           margin: 50px;
@@ -415,7 +421,7 @@
     text-align: center;
   }
   ul {
-    padding-top: 36px;
+    padding-top: 50px;
   }
 
   
