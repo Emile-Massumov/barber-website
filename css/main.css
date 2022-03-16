@@ -15,18 +15,21 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
+    overflow-x: hidden;
   }
   
      html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    overflow-x: hidden;
   }
   h2 {
     color: #fff;
     text-align: center;
     font-family: 'Prata', serif;
   }
+
   /*Header button*/
     .text p {
       padding: 20px;
@@ -72,31 +75,33 @@
     width: 50%;
     height: 50%;
   }
-  
-  .btn-hire {
-  background-color:#fff;  
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 8px;
+    font-family: 'Prata', serif;
+
   }
+
  
   ul {
-    padding-right: 20px;
+    padding: 20px;
   }
    
   nav li {
       list-style-type: none;
-  
-  
-    }
-    nav a {
-      text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: #000;
-      background-color: #fff;
-      padding: 10px;
-      font-size: 12px;
-      font-family: 'Prata', serif;
-  
-    }
+  }
+  /*text address nav*/
+  .upper-address {
+    color:#000;
+    font-size: 1px;
+    
+}
+ 
      /**second button reserver**/
      .container-button {
        display: flex;
@@ -113,6 +118,7 @@
        border-radius: 10px;
        cursor: pointer;
      }
+   
   
     /**video**/
     .container {
@@ -159,7 +165,7 @@
       justify-content: center;
   }
   .full-width {
-    overflow: auto;
+    overflow:hidden;
     width: auto;
   }
   /**Slideshow**/
@@ -220,7 +226,7 @@
    .full-width {
     width: 100%;
     margin: 0 auto;
-    overflow: auto;
+    overflow: hidden;
   }
   #contact h2 {
     color:#000;
