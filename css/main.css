@@ -56,6 +56,7 @@
    
   
     /*nav-bar*/
+
    
   .nav-container {
     display: flex;
@@ -100,7 +101,7 @@
   /*text address nav*/
   .upper-address {
     color:#000;
-    font-size: 1px;
+    font-size: -0px;
     
 }
  
