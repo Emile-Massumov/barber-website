@@ -342,9 +342,12 @@
       width: 100%;
       margin: 0;
      }
-     .about-image .about-details{
+     .about-image .about-details .about-writeup{
        display: flex;
+       justify-content: center;
+       align-content: center;
      }
+    
      
     /*footer*/
     .full-width {
